@@ -8,7 +8,7 @@ The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by s
 
 ##
 
-### Below is a basic description of the data structure in the data directory:
+### Below is a description of the data structure in the data directory:
 
 ##
 
@@ -46,7 +46,7 @@ The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by s
 
 * data/past_climate
   
-  This directory contains the processed paleoclimate data that were used to estimate past climate change / stability as predictor for GD. The four files represent temperature and precipitation trend and variability within extreme centuries of temperature change since the Last glacial Maximum. 
+  This directory contains the processed paleoclimate data that were used to estimate past climate change / stability as predictor for GD. The four files represent temperature and precipitation trend and variability within extreme centuries of temperature change since the Last Glacial Maximum. 
   
  
 **Processed data**
