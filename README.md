@@ -55,4 +55,17 @@ The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by s
 
   This directory contains all the processed data needed to reproduce the statistical analyses and generate the figures in the paper. The .csv files are the dataframes that contain the observed genetic diversity to gether with all the independant variables, plus additional information necessary to filter the data. Below is the description of the columns of the file. Each row in the file represent a spatial unit (i.e. grid-cell or zoogeographic region).
   
-  - edfsdf
+ - The first unnamed column is the spatial unit identity
+ - xC,yC: The geographic coordinates of the cell centroid. This information is missing at the zoogeographic region scale
+ - GD: The average genetic diversity across all sampled species
+ - mammalTaxa: The total number of sampled species
+ - mammalSeqs: The total number of sampled sequences
+ - meanSeqs: Mean number of sequences per species
+ - Dist: The mean geographic distance across all sampled sequences
+ - PD: Phylogenetic diversity
+ - nTaxa: Species richness
+ - GlobalExtreme_prTrendExt,GlobalExtreme_prVarExt,GlobalExtreme_tsTrendExt,GlobalExtreme_tsVarExt: Precipitation (pr) and temperature (ts) trend and variability.
+ - kk10: Anthropogenic land-use change during the Holocene
+ - HFP2009: Human footprint at 2009
+ - GDsqrt: The square root of genetic diversity
+ - TaxonComplete: Taxonomic coverage (sampled species divided by species richness)
