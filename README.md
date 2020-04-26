@@ -69,7 +69,8 @@ The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by s
   - HFP2009: Human footprint at 2009
   - GDsqrt: The square root of genetic diversity
   - TaxonComplete: Taxonomic coverage (sampled species divided by species richness)
+
+
+* data/predicted_GD
   
-  * data/predicted_GD
-  
-   This directory contains the two predicted maps of genetic diversity presented in Figure 3.
+  This directory contains the two predicted maps of genetic diversity presented in Figure 3.
