@@ -1,10 +1,6 @@
 ##
 
-This repository contains the processed data and the basic functions to estimate genetic diversity as described in the paper “Evolutionary history and past climate change shape the distribution of genetic diversity in terrestrial mammals” published in *Nature Communications*. The functions are contained in two Jupyter Notebooks and can be downloaded and run interactively together with the required input files (i.e. georeferenced and aligned genetic sequences).
-
-##
-
-The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by selecting the desired marker. After the assignment of sequences to spatial units the user can run the second Notebook to estimate GD per spatial unit.
+This repository contains the processed data and the basic functions to estimate genetic diversity as described in the paper “Evolutionary history and past climate change shape the distribution of genetic diversity in terrestrial mammals” published in *Nature Communications*. The functions are contained in a Jupyter Notebook and can be downloaded and run interactively together with the required input files (i.e. georeferenced and aligned genetic sequences).
 
 ##
 
@@ -16,11 +12,11 @@ The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by s
 
 * data/cytb_coordinates.csv
 
-  These are the georeferenced and spatially filtered (i.e. using species ranges) *cytb* sequences
+  These are the georeferenced and spatially filtered (i.e. using species ranges) *cytb* sequences.
 
 * data/cytb_coordinates.csv
 
-  These are the georeferenced and spatially filtered (i.e. using species ranges) *co1* sequences
+  These are the georeferenced and spatially filtered (i.e. using species ranges) *co1* sequences.
 
 **Spatial units**
 
@@ -31,16 +27,23 @@ The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by s
 * data/mammalWallaceRegionsMulti.json
 
   This is the map that is used to map GD at the Wallace zoogeographic region scale. The map contains multiple polygones for each defined region.
+  
+**Assigned sequences**
+
+* data/assigned_sequences
+
+  This directory contains the python dictionaries that should be used to estimate genetic diversity per spatial unit. the dictionaries store the sequence ids per species and spatial unit.
+ 
 
 **Aligned sequences**
 
 * data/mammals_cytb.zip
 
-  This is a directory containing all sequence alignments (fasta format) per species for *cytb*. It should be unzipped to be used with the python notebooks.
+  This is a directory containing all sequence alignments (fasta format) per species for *cytb*. It should be unzipped to be used with the python notebook.
 
 * data/mammals_co1.zip
 
-  This is a directory containing all sequence alignments (fasta format) per species for *co1*. It should be unzipped to be used with the python notebooks.
+  This is a directory containing all sequence alignments (fasta format) per species for *co1*. It should be unzipped to be used with the python notebook.
 
 **Climate data**
 
