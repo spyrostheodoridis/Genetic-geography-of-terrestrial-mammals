@@ -1,6 +1,6 @@
 ##
 
-This repository contains the processed data and the basic functions we used to estimate genetic diversity in the manuscript “Evolutionary history and past climate change shape the distribution of genetic diversity in terrestrial mammals” published in *Nature Communications*. The functions are contained in two Jupyter Notebooks and can be downloaded and run interactively together with the required input files (i.e. georeferenced and aligned genetic sequences).
+This repository contains the processed data and the basic functions to estimate genetic diversity as described in the paper “Evolutionary history and past climate change shape the distribution of genetic diversity in terrestrial mammals” published in *Nature Communications*. The functions are contained in two Jupyter Notebooks and can be downloaded and run interactively together with the required input files (i.e. georeferenced and aligned genetic sequences).
 
 ##
 
@@ -8,7 +8,7 @@ The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by s
 
 ##
 
-## Below is a basic description of the data structure in the data directory:
+### Below is a basic description of the data structure in the data directory:
 
 ##
 
