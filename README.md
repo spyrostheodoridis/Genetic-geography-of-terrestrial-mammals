@@ -48,6 +48,11 @@ The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by s
   
   This directory contains the processed paleoclimate data that were used to estimate past climate change / stability as predictor for GD. The four files represent temperature and precipitation trend and variability within extreme centuries of temperature change since the Last glacial Maximum. 
   
+ 
+**Processed data**
   
-  
+* data/processed_data
 
+  This directory contains all the processed data needed to reproduce the statistical analyses and generate the figures in the paper. The .csv files are the dataframes that contain the observed genetic diversity to gether with all the independant variables, plus additional information necessary to filter the data. Below is the description of the columns of the file. Each row in the file represent a spatial unit (i.e. grid-cell or zoogeographic region).
+  
+  - edfsdf
