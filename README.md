@@ -53,7 +53,7 @@ The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by s
   
 * data/processed_data
 
-  This directory contains all the processed data needed to reproduce the statistical analyses and generate the figures in the paper. The .csv files are the dataframes that contain the observed genetic diversity to gether with all the independant variables, plus additional information necessary to filter the data. Below is the description of the columns of the file. Each row in the file represent a spatial unit (i.e. grid-cell or zoogeographic region).
+  This directory contains all the processed data needed to reproduce the statistical analyses and generate the figures in the paper. The .csv files are the dataframes that contain the observed genetic diversity to gether with all the independant variables, plus additional information necessary to filter the data. Below is the description of the columns of the file. Each row in the file represents a spatial unit (i.e. grid-cell or zoogeographic region).
   
   - The first unnamed column is the spatial unit identity
   - xC,yC: The geographic coordinates of the cell centroid. This information is missing at the zoogeographic region scale
