@@ -73,4 +73,4 @@ The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by s
 
 * data/predicted_GD
   
-  This directory contains the two predicted maps of genetic diversity presented in Figure 3.
+  This directory contains the two predicted maps of genetic diversity presented in Figure 3. The maps were created using the strabo library (https://github.com/spyrostheodoridis/strabo)
