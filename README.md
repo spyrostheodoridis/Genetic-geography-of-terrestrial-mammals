@@ -4,7 +4,13 @@ This repository contains the processed data and the basic functions we used to e
 
 ##
 
-##### Below is a basic description of the data structure in the data directory:
+The user should first run the AssignSequencesToUnits.ipynb Jupyter Notebook by selecting the desired marker. After the assignment of sequences to spatial units the user can run the second Notebook to estimate GD per spatial unit.
+
+##
+
+## Below is a basic description of the data structure in the data directory:
+
+##
 
 **Georeferenced sequences**
 
@@ -24,8 +30,24 @@ This repository contains the processed data and the basic functions we used to e
 
 * data/mammalWallaceRegionsMulti.json
 
-This is the map that is used to map GD at the Wallace zoogeographic region scale. The map contains multiple polygones for each defined region.
+  This is the map that is used to map GD at the Wallace zoogeographic region scale. The map contains multiple polygones for each defined region.
 
+**Aligned sequences**
 
+* data/mammals_cytb.zip
 
+  This is a directory containing all sequence alignments (fasta format) per species for *cytb*. It should be unzipped to be used with the python notebooks.
+
+* data/mammals_co1.zip
+
+  This is a directory containing all sequence alignments (fasta format) per species for *co1*. It should be unzipped to be used with the python notebooks.
+
+**Climate data**
+
+* data/past_climate
+  
+  This directory contains the processed paleoclimate data that were used to estimate past climate change / stability as predictor for GD. The four files represent temperature and precipitation trend and variability within extreme centuries of temperature change since the Last glacial Maximum. 
+  
+  
+  
 
