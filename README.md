@@ -76,4 +76,4 @@ This repository contains the processed data and the basic functions to estimate 
 
 * data/predicted_GD
   
-  This directory contains the two predicted maps of genetic diversity presented in Figure 3. The maps were created using the strabo library (https://github.com/spyrostheodoridis/strabo)
+  This directory contains the two predicted maps of genetic diversity presented in Figure 3. The maps were created using the strabo library (https://github.com/spyrostheodoridis/strabo) and d3.js (https://d3js.org/)
