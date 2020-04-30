@@ -73,6 +73,7 @@ This repository contains the processed data and the basic functions to estimate 
   - GDsqrt: The square root of genetic diversity
   - TaxonComplete: Taxonomic coverage (sampled species divided by species richness)
 
+  The cytb_grid_orders.csv and co1_grid_orders.csv contain a summary of genetic diversity per grid cell at the mammal order level.
 
 * data/predicted_GD
   
