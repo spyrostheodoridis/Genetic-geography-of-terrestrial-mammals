@@ -22,7 +22,7 @@ This repository contains the processed data and the basic functions to estimate 
 
 * data/landGrid385.9451km.json
 
-  This is the map that is used to map GD at the grid-cell scale (385.9451km x 385.9451km spatial resolution). The map grid (Behrmann Cylindrical Equal-Area Projection) was created using the chorospy library (https://github.com/spyrostheodoridis/chorospy).
+  This is the grid that is used to map GD at the grid cell scale (385.9451km x 385.9451km spatial resolution). The grid (Behrmann Cylindrical Equal-Area Projection) was created using the chorospy library (https://github.com/spyrostheodoridis/chorospy).
 
 * data/mammalWallaceRegionsMulti.json
 
